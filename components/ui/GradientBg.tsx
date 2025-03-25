@@ -86,6 +86,7 @@ export const BackgroundGradientAnimation = ({
     setIsSafari(/^((?!chrome|android).)*safari/i.test(navigator.userAgent));
   }, []);
 
+  return null
   return (
     <div
       className={cn(
